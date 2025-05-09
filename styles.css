@@ -170,8 +170,10 @@ body {
   }
 
   .about-section:first-child {
-    flex: 0 0 auto;
-    margin-top: 150px;
+    align-items: flex-start;
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .about-section:last-child {
