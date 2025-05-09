@@ -1,0 +1,97 @@
+---
+layout: default
+title: Blog
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Blog - Colette Chang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <a href="/" style="text-decoration: none; color: inherit;">
+          <div class="profile">
+            <img src="/coco.jpeg" alt="Colette Chang" class="profile-pic">
+            <span class="site-title">Colette<br>Chang</span>
+          </div>
+        </a>
+        <div style="display: flex; align-items: center;">
+          <nav class="nav-links">
+            <a href="/about.html">About</a>
+            <a href="/blog" class="active">Blog</a>
+            <a href="/contact.html">Contact Me</a>
+          </nav>
+          <a href="#" class="search-icon" aria-label="Search">
+            <i class="fas fa-search"></i>
+          </a>
+          <div class="social-icons">
+            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="blog-index">
+      <h1>Blog Posts</h1>
+      <div class="posts-list">
+        {% for post in site.posts %}
+        <article class="post-preview">
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <div class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%B %d, %Y" }}
+            </time>
+            {% if post.author %}
+            <span class="post-author">by {{ post.author }}</span>
+            {% endif %}
+          </div>
+          {% if post.excerpt %}
+          <div class="post-excerpt">
+            {{ post.excerpt }}
+          </div>
+          {% endif %}
+          <a href="{{ post.url }}" class="read-more">Read More</a>
+        </article>
+        {% endfor %}
+      </div>
+    </main>
+    <div id="search-overlay" class="search-overlay">
+      <div class="search-box">
+        <input type="text" placeholder="Type to search..." autofocus>
+        <span class="close-search" id="close-search">&times;</span>
+      </div>
+    </div>
+    <script>
+      const searchIcon = document.querySelector('.search-icon');
+      const searchOverlay = document.getElementById('search-overlay');
+      const closeSearch = document.getElementById('close-search');
+      const searchInput = searchOverlay.querySelector('input');
+    
+      searchIcon.addEventListener('click', function(e) {
+        e.preventDefault();
+        searchOverlay.classList.add('active');
+        setTimeout(() => searchInput.focus(), 100);
+      });
+    
+      closeSearch.addEventListener('click', function() {
+        searchOverlay.classList.remove('active');
+      });
+    
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          searchOverlay.classList.remove('active');
+        }
+      });
+    </script>
+  </body>
+</html> 
