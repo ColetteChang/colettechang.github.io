@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Hello World"
+Subtitle: From a Lawyer Who Just Started Vibe Coding"
 date: 2025-05-09
 author: Colette Chang
 ---
-**Hello, World: From a Lawyer Who Just Started Vibe Coding**
-
 I've studied law since I was 18. For most of my adult life, my world has been filled with statutes, codes, and legal doctrines. I never thought I would build a website by myself, but here I am.
 
 Originally, I just wanted a simple space to document the thoughts, adventures, and little discoveries happening in my late 20s. I bought a domain name, thinking I'd use a website builder. But somewhere along the way, I asked myself: *what if I actually learn to build it from scratch?*
