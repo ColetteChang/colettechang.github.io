@@ -4,6 +4,8 @@ title: "Hello World"
 Subtitle: From a Lawyer Who Just Started Vibe Coding"
 date: 2025-05-09
 author: Colette Chang
+categories: [Tech & Projects]
+tags: [vibe coding]
 ---
 I've studied law since I was 18. For most of my adult life, my world has been filled with statutes, codes, and legal doctrines. I never thought I would build a website by myself, but here I am.
 
