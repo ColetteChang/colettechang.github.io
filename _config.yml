@@ -44,3 +44,6 @@ future: true
 #   permalinks:
 #     category: '/categories/:name/'
 #     tag: '/tags/:name/'
+
+include:
+  - categories
