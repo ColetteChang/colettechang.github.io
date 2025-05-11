@@ -540,3 +540,33 @@ body {
     font-style: italic;
     text-align: center;
   }
+
+  .post-meta-bottom {
+    margin-top: 6em;
+    padding-top: 3em;
+    border-top: 1px solid #eee;
+  }
+
+  .category-link {
+    color: #2a7ae2;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 0.5em;
+  }
+
+  .category-link:hover {
+    text-decoration: underline;
+    color: #174a7c;
+  }
+
+  .tag-link {
+    color: #e27a2a;
+    text-decoration: none;
+    font-style: italic;
+    margin-right: 0.5em;
+  }
+
+  .tag-link:hover {
+    text-decoration: underline;
+    color: #7c4a17;
+  }
