@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World"
+title: "Hello World:"
 subtitle: "From a Lawyer Who Just Started Vibe Coding"
 date: 2025-05-09
 author: Colette Chang
@@ -14,7 +14,7 @@ Originally, I just wanted a simple space to document the thoughts, adventures, a
 So, I started again. Not with a grand plan, but with curiosity and the help of some amazing tools. This post wouldn't exist without **Cursor** and **ChatGPT**, which made everything feel so much more approachable. To the developers behind them: thank you. You've made it possible for someone like me—a lawyer who gave up on coding twice and never imagined creating her own site—to try again with excitement.
 
 This website is still a work in progress (so am I). I want to keep revising myself into a better person. I'm exploring the world, learning about tech along the way, and documenting my own adventures as they unfold.
-**Also... please don't attack my site right now. I'm not quite skilled enough to defend it yet.**
+*Also... please don't attack my site right now. I'm not quite skilled enough to defend it yet. I swear, I respect all the real coders out there.*
 
 Here's to the beginning of something new. Thanks for reading.
 
