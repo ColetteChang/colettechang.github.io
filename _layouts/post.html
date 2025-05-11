@@ -43,12 +43,6 @@
           {% if page.subtitle %}
             <h2 class="post-subtitle">{{ page.subtitle }}</h2>
           {% endif %}
-          {% if page.categories %}
-            <p>Categories: {{ page.categories | join: ', ' }}</p>
-          {% endif %}
-          {% if page.tags %}
-            <p>Tags: {{ page.tags | join: ', ' }}</p>
-          {% endif %}
           <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}">
               {{ page.date | date: "%B %d, %Y" }}
@@ -61,6 +55,12 @@
         <div class="post-content">
           {{ content }}
         </div>
+        {% if page.categories %}
+          <p>Categories: {{ page.categories | join: ', ' }}</p>
+        {% endif %}
+        {% if page.tags %}
+          <p>Tags: {{ page.tags | join: ', ' }}</p>
+        {% endif %}
       </article>
     </main>
     <div id="search-overlay" class="search-overlay">
