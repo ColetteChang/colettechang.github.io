@@ -55,12 +55,22 @@
         <div class="post-content">
           {{ content }}
         </div>
-        {% if page.categories %}
-          <p>Categories: {{ page.categories | join: ', ' }}</p>
-        {% endif %}
-        {% if page.tags %}
-          <p>Tags: {{ page.tags | join: ', ' }}</p>
-        {% endif %}
+        <div class="post-meta-bottom">
+          {% if page.categories %}
+            <p>Categories:
+              {% for category in page.categories %}
+                <a href="/categories/tech-and-projects/" class="category-link">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            </p>
+          {% endif %}
+          {% if page.tags %}
+            <p>Tags:
+              {% for tag in page.tags %}
+                <a href="/tags/{{ tag | slugify }}/" class="tag-link">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            </p>
+          {% endif %}
+        </div>
       </article>
     </main>
     <div id="search-overlay" class="search-overlay">
