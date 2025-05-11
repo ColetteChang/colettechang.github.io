@@ -32,3 +32,15 @@ exclude:
   - .gitignore 
 
 future: true
+
+# plugins:
+#   - jekyll-archives
+
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layout: 'archive'
+#   permalinks:
+#     category: '/categories/:name/'
+#     tag: '/tags/:name/'
