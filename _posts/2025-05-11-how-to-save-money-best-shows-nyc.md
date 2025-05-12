@@ -1,15 +1,13 @@
 ---
 layout: post
 title: "How to Save Money and See the Best Shows in NYC 🎭💸"
-date: 2024-06-09
+date: 2025-05-11
 author: Colette Chang
 categories: [Travel & Life]
 tags: [New York, Broadway, Opera, Ballet, Theater, Discounts]
 ---
 
-The greatest thing about living in NYC for me is that you can often enjoy world-class performances at an affordable price. As someone who averages 2–3 shows per week and scores up to 5 lottery tickets weekly, I've explored the best ways to enjoy Broadway, opera, ballet, and more — without breaking the bank.
-
-Here are the platforms and tricks I use to consistently find great deals:
+The greatest thing about living in NYC for me is that you can often enjoy world-class performances at an affordable price. Here are the platforms and tricks I use to consistently find great deals:
 
 ---
 
@@ -46,7 +44,7 @@ Here are the platforms and tricks I use to consistently find great deals:
 
 ### 🧑‍🎓 Student Discounts
 
-Many shows offer special discounts for students, either online or at the box office with a valid student ID. I haven't had a chance to use these myself, but if you're a student, definitely check — it can save you a lot!
+Many shows offer special discounts for students, either online or at the box office with a valid student ID. I haven't had a chance to use these myself, but if you're a student, definitely check!
 
 ---
 
@@ -64,4 +62,4 @@ Many shows offer special discounts for students, either online or at the box off
 
 ---
 
-Enjoy the shows!
+Enjoy the fantasic shows in NYC!
