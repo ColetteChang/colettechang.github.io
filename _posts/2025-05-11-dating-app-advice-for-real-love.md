@@ -3,7 +3,7 @@ layout: post
 title: "💬 Dating App Advice for People Looking for Real Love"
 date: 2025-05-11
 author: Colette Chang
-categories: [Thoughts]
+categories: [Thought]
 tags: [Life Lessons,Dating,Relationship]
 ---
 
