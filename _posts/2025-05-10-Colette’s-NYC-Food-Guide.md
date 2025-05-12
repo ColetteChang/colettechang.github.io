@@ -17,41 +17,41 @@ Here's a list of the places that stood out — categorized so you can find what 
 
 ## 🥯 Breakfast & Brunch
 
-**<u>Liberty Bagels (Midtown & FiDi)<u>**  
+<u>**Liberty Bagels (Midtown & FiDi)** <u> 
 My favorite bagel in NYC. I was skeptical of the rainbow bagel at first, but it turned out to be surprisingly delicious and totally unforgettable. I usually stop by when taking visitors to Central Park or Wall Street. I recommand try one sweet (Oreo, blueberry, or Nutella) and one savory such as lox, avocado, egg and cheese— and share with friends. They also do festive holiday bagels that are surprisingly delicious and photogenic.
 
-**<u>Ellen's Stardust Diner (Midtown)<u>**  
+<u>**Ellen's Stardust Diner (Midtown)**<u>  
 If you're short on time or budget and can't catch a Broadway show, this diner is a fun alternative. The food isn't anything special, but the live singing waitstaff give you a little taste of musical theater magic while you eat.
 
 ## 🍽️ Lunch & Dinner
 
-**Maison Pickle (Upper West Side)**  
+<u>**Maison Pickle (Upper West Side)**<u>  
 My favorite restaurant in the city!!! The French toast fried chicken is unreal: sweet, spicy, savory, crispy, and soft. The buffalo mac & cheese is pure comfort. The garlic bun is famous, but I personally prefer the herb one more. For dessert, try the Oreo cake, even though the signature 24-layer cake looks cooler.
 
-**<u>Prince Street Pizza (SoHo)<u>**  
+<u>**Prince Street Pizza (SoHo)**<u>  
 The square slice here is iconic — thick, crispy, cheesy, and a little greasy in the best way. It's probably too heavy for a typical Taiwanese stomach, but hey, you're in NYC! Embrace the junk food.
 
-**Sakagura (Midtown East)**  
+<u>**Sakagura (Midtown East)**<u>  
 High-quality Japanese food that's still affordable. Come for the weekday lunch special! It's surprisingly fulfilling and tucked away in a hidden basement, which makes it feel like a delicious little secret.
 
-**<u>Mala Project (East Village & Midtown)<u>**  
+<u>**Mala Project (East Village & Midtown)**<u>  
 The best dry pot I've had in Manhattan. Still not Asia-level, but flavorful and comforting if you're craving that numbing spice.
 
-**<u>Maxi's Noodle (Flushing)<u>**  
+<u>**Maxi's Noodle (Flushing)**<u>  
 The best wonton I've had in the U.S. I made the trip to Flushing just for it — twice! Still need to try their Manhattan location.
 
-**<u>Dhamaka (Lower East Side)<u>**  
+<u>**Dhamaka (Lower East Side)**<u>  
 A high-quality Indian restaurant that delivers bold flavors and unique dishes. Definitely try the biryani - the pot is covered by bread! Really traditional way to make the dish. Also, don't miss the dessert! It's exotic, but surprisingly tasty. A great spot when you want something different and exciting.
 
-**<u>Bar B (Greenwich Village)<u>**  
+<u>**Bar B (Greenwich Village)**<u>  
 A tiny standing bar with great happy hour and fun energy. No seats, but that's part of the charm. Perfect for a quick bite before heading to dessert with friends.
 
-**<u>Keens Steakhouse (Midtown)<u>**  
+<u>**Keens Steakhouse (Midtown)**<u>  
 Not a place I'd go alone, but perfect when family visits. Classic NYC steakhouse with rich dishes. Bonus: their desserts come from top bakeries like Eileen's Special Cheesecake — so you get the best without the line.
 
 ## 🍰 Desserts & Cafés
 
-**<u>Bibble & Sip (Midtown)<u>**  
+<u>**Bibble & Sip (Midtown)**<u>  
 Their cream puff is light, flavorful, and just indulgent enough — reminds me of the quality I'd expect in Asia. Yes, it's pricey, but a perfect homesick cure when you're craving something sweet and familiar.
 
 **<u>Cha-An Teahouse (East Village)<u>**  
