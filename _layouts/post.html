@@ -59,7 +59,7 @@
           {% if page.categories %}
             <p>Categories:
               {% for category in page.categories %}
-                <a href="/categories/{{ category | downcase | replace: ' ', '-' }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+                <a href="/categories/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
               {% endfor %}
             </p>
           {% endif %}
