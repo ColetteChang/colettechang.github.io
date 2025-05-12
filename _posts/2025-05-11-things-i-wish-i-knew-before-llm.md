@@ -3,8 +3,8 @@ layout: post
 title: "🎓 Things I Wish I Knew Before Starting My U.S. LL.M. Program"
 date: 2025-05-11
 author: Colette Chang
-categories: [Law, Life Lessons]
-tags: [LLM, Law School, US, Advice, International Students]
+categories: [Law, Thought]
+tags: [LLM, Law School, International Students]
 ---
 
 If you're about to begin your LL.M. journey in the United States—congrats! It's going to be intense, exciting, and transformative. I'm sharing a few things I wish I had known before starting, based on my own experience and what I've learned from friends and classmates.
