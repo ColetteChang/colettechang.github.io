@@ -476,6 +476,7 @@ body {
 
   .post-content p {
     margin-bottom: 1.5rem;
+    font-weight: normal
   }
 
   .post-content img {
