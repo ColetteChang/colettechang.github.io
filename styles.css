@@ -454,6 +454,7 @@ body {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
+    font-family: 'Playfair Display', serif;font-weight: normal;
   }
 
   .post-header {
