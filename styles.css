@@ -454,7 +454,8 @@ body {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
-    font-family: 'Playfair Display', serif;font-weight: normal;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
   }
 
   .post-header {
@@ -471,13 +472,13 @@ body {
   .post-content {
     line-height: 1.8;
     color: #333;
-    font-weight: normal;
+    font-weight: normal !important;
     text-align: justify;
   }
 
   .post-content p {
     margin-bottom: 1.5rem;
-    font-weight: normal;
+    font-weight: normal !important;
     text-align: justify;
   }
 

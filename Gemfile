@@ -5,5 +5,4 @@ gem "webrick" # Required for Ruby 3.0+
 
 # bundle exec jekyll serve 
 
-bundle clean --force
-bundle install 
+bundle exec jekyll serve 
