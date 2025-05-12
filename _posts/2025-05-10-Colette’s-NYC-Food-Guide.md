@@ -25,13 +25,13 @@ If you're short on time or budget and can't catch a Broadway show, this diner is
 
 ## 🍽️ Lunch & Dinner
 
-<u>**Maison Pickle (Upper West Side)**<u>  
+**Maison Pickle (Upper West Side)**  
 My favorite restaurant in the city!!! The French toast fried chicken is unreal: sweet, spicy, savory, crispy, and soft. The buffalo mac & cheese is pure comfort. The garlic bun is famous, but I personally prefer the herb one more. For dessert, try the Oreo cake, even though the signature 24-layer cake looks cooler.
 
 **Prince Street Pizza (SoHo)** 
 The square slice here is iconic — thick, crispy, cheesy, and a little greasy in the best way. It's probably too heavy for a typical Taiwanese stomach, but hey, you're in NYC! Embrace the junk food.
 
-<u>**Sakagura (Midtown East)**<u>  
+**Sakagura (Midtown East)**  
 High-quality Japanese food that's still affordable. Come for the weekday lunch special! It's surprisingly fulfilling and tucked away in a hidden basement, which makes it feel like a delicious little secret.
 
 **Mala Project (East Village & Midtown)**
