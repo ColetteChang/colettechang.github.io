@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World: - Colette Chang Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <a href="/" style="text-decoration: none; color: inherit;">
+          <div class="profile">
+            <img src="/coco.jpeg" alt="Colette Chang" class="profile-pic">
+            <span class="site-title">Colette<br>Chang</span>
+          </div>
+        </a>
+        <div style="display: flex; align-items: center;">
+          <nav class="nav-links">
+            <a href="/about.html">About</a>
+            <a href="/blog">Blog</a>
+            <a href="/contact.html">Contact Me</a>
+          </nav>
+          <a href="#" class="search-icon" aria-label="Search">
+            <i class="fas fa-search"></i>
+          </a>
+          <div class="social-icons">
+            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="blog-post">
+      <article>
+        <header class="post-header">
+          <h1>Hello World:</h1>
+          
+            <h2 class="post-subtitle">From a Lawyer Who Just Started Vibe Coding</h2>
+          
+          <div class="post-meta">
+            <time datetime="2025-05-09T00:00:00-04:00">
+              May 09, 2025
+            </time>
+            
+            <span class="post-author">by Colette Chang</span>
+            
+          </div>
+        </header>
+        <div class="post-content">
+          <p>I’ve studied law since I was 18. For most of my adult life, my world has been filled with statutes, codes, and legal doctrines. I never thought I would build a website by myself, but here I am.</p>
+
+<p>Originally, I just wanted a simple space to document the thoughts, adventures, and little discoveries happening in my late 20s. I bought a domain name, thinking I’d use a website builder. But somewhere along the way, I asked myself: <em>what if I actually learn to build it from scratch?</em></p>
+
+<p>So, I started again. Not with a grand plan, but with curiosity and the help of some amazing tools. This post wouldn’t exist without <strong>Cursor</strong> and <strong>ChatGPT</strong>, which made everything feel so much more approachable. To the developers behind them: thank you. You’ve made it possible for someone like me—a lawyer who gave up on coding twice and never imagined creating her own site—to try again with excitement.</p>
+
+<p>This website is still a work in progress (so am I). I want to keep revising myself into a better person. I’m exploring the world, learning about tech along the way, and documenting my own adventures as they unfold.
+<em>Also… please don’t attack my site right now. I’m not quite skilled enough to defend it yet. I swear, I respect all the real coders out there.</em></p>
+
+<p>Here’s to the beginning of something new. Thanks for reading.</p>
+
+<p>— Colette</p>
+
+        </div>
+        <div class="post-meta-bottom">
+          
+            <p>Categories:
+              
+                <a href="/categories/tech-&-projects/">Tech & Projects</a>
+              
+            </p>
+          
+          
+            <p>Tags:
+              
+                <a href="/tags/vibe-coding/" class="tag-link">vibe coding</a>
+              
+            </p>
+          
+        </div>
+      </article>
+    </main>
+    <div id="search-overlay" class="search-overlay">
+      <div class="search-box">
+        <input type="text" placeholder="Type to search..." autofocus>
+        <span class="close-search" id="close-search">&times;</span>
+      </div>
+    </div>
+    <script>
+      const searchIcon = document.querySelector('.search-icon');
+      const searchOverlay = document.getElementById('search-overlay');
+      const closeSearch = document.getElementById('close-search');
+      const searchInput = searchOverlay.querySelector('input');
+    
+      searchIcon.addEventListener('click', function(e) {
+        e.preventDefault();
+        searchOverlay.classList.add('active');
+        setTimeout(() => searchInput.focus(), 100);
+      });
+    
+      closeSearch.addEventListener('click', function() {
+        searchOverlay.classList.remove('active');
+      });
+    
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          searchOverlay.classList.remove('active');
+        }
+      });
+    </script>
+  </body>
+</html> 
