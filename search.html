@@ -4,25 +4,183 @@
     <meta charset="UTF-8">
     <title>Search - Colette Chang Blog</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        margin: 0;
+        background: #f7f3e7;
+        font-family: 'Georgia', serif;
+      }
+      .modal {
+        background: rgba(20, 20, 30, 0.98);
+        position: fixed;
+        top: 0; left: 0; right: 0; bottom: 0;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 120px;
+      }
+      .search-bar-row {
+        display: flex;
+        align-items: center;
+        width: 60vw;
+        position: relative;
+        margin-bottom: 2rem;
+      }
+      #search-input {
+        flex: 1;
+        font-size: 2.5rem;
+        padding: 0.5em 0.5em;
+        border: none;
+        border-bottom: 4px solid #e6b800;
+        background: transparent;
+        color: #fff;
+        outline: none;
+        font-weight: bold;
+      }
+      #results-list {
+        width: 60vw;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .result-item {
+        padding: 1.2rem 0.5rem 1.2rem 0;
+        border-bottom: 1px solid #333;
+        background: transparent;
+        color: #fff;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.2s;
+      }
+      .result-item.active,
+      .result-item:hover {
+        background: #222;
+        color: #ffe066;
+        transform: scale(1.02);
+      }
+      .result-item a {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+      }
+      .result-item .title {
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+      .result-item .date {
+        font-size: 0.95rem;
+        color: #bbb;
+        margin-top: 0.2rem;
+      }
+      .close-btn {
+        font-size: 2.5rem;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition: color 0.2s;
+        align-self: flex-start;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0;
+        top: 0.1em;
+        padding: 0.5em;
+      }
+      .close-btn:hover {
+        color: #ffe066;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <!-- (You can copy your header here) -->
-    </header>
     <main>
-      <div class="search-page-container">
-        <h1>Search</h1>
-        <input type="text" id="search-input" placeholder="Type to search...">
-        <ul id="results-container"></ul>
+      <div id="search-modal" class="modal">
+        <div class="search-bar-row">
+          <input type="text" id="search-input" placeholder="Type to search...">
+          <button class="close-btn" id="close-btn" aria-label="Close search">&times;</button>
+        </div>
+        <ul id="results-list"></ul>
       </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
     <script>
-      SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '/search.json'
-      })
+      let posts = [];
+      let fuse;
+      fetch('/search.json')
+        .then(response => response.json())
+        .then(data => {
+          posts = data;
+          fuse = new Fuse(posts, {
+            keys: ['title', 'content'],
+            threshold: 0.3
+          });
+        });
+
+      const input = document.getElementById('search-input');
+      const resultsList = document.getElementById('results-list');
+      let currentIndex = -1;
+
+      function renderResults(results) {
+        resultsList.innerHTML = results.map((r, i) => `
+          <li tabindex="0" class="result-item${i === currentIndex ? ' active' : ''}">
+            <a href="${r.item.url}">
+              <div class="title">${r.item.title}</div>
+              <div class="date">${r.item.date}</div>
+            </a>
+          </li>
+        `).join('');
+      }
+
+      input.addEventListener('input', function() {
+        currentIndex = -1;
+        if (!fuse) return;
+        const results = fuse.search(this.value);
+        renderResults(results);
+      });
+
+      // Keyboard navigation
+      input.addEventListener('keydown', function(e) {
+        const results = fuse ? fuse.search(this.value) : [];
+        if (['ArrowDown', 'ArrowUp', 'Enter'].includes(e.key) && results.length > 0) {
+          if (e.key === 'ArrowDown') {
+            currentIndex = (currentIndex + 1) % results.length;
+            renderResults(results);
+          } else if (e.key === 'ArrowUp') {
+            currentIndex = (currentIndex - 1 + results.length) % results.length;
+            renderResults(results);
+          } else if (e.key === 'Enter' && currentIndex >= 0) {
+            window.location = results[currentIndex].item.url;
+          }
+          e.preventDefault();
+        }
+      });
+
+      // Mouse hover effect
+      resultsList.addEventListener('mouseover', function(e) {
+        const items = Array.from(document.querySelectorAll('.result-item'));
+        const li = e.target.closest('.result-item');
+        if (li) {
+          currentIndex = items.indexOf(li);
+          items.forEach((item, idx) => item.classList.toggle('active', idx === currentIndex));
+        }
+      });
+
+      // Mouse click navigation
+      resultsList.addEventListener('click', function(e) {
+        const li = e.target.closest('.result-item');
+        if (li) {
+          const link = li.querySelector('a');
+          if (link) window.location = link.href;
+        }
+      });
+
+      document.getElementById('close-btn').addEventListener('click', function() {
+        // Go back to the previous page in browser history
+        window.history.back();
+      });
     </script>
   </body>
 </html>

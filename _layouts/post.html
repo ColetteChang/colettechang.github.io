@@ -22,7 +22,7 @@
             <a href="/blog">Blog</a>
             <a href="/contact.html">Contact Me</a>
           </nav>
-          <a href="#" class="search-icon" aria-label="Search">
+          <a href="/search.html" class="search-icon" aria-label="Search">
             <i class="fas fa-search"></i>
           </a>
           <div class="social-icons">
@@ -73,33 +73,5 @@
         </div>
       </article>
     </main>
-    <div id="search-overlay" class="search-overlay">
-      <div class="search-box">
-        <input type="text" placeholder="Type to search..." autofocus>
-        <span class="close-search" id="close-search">&times;</span>
-      </div>
-    </div>
-    <script>
-      const searchIcon = document.querySelector('.search-icon');
-      const searchOverlay = document.getElementById('search-overlay');
-      const closeSearch = document.getElementById('close-search');
-      const searchInput = searchOverlay.querySelector('input');
-    
-      searchIcon.addEventListener('click', function(e) {
-        e.preventDefault();
-        searchOverlay.classList.add('active');
-        setTimeout(() => searchInput.focus(), 100);
-      });
-    
-      closeSearch.addEventListener('click', function() {
-        searchOverlay.classList.remove('active');
-      });
-    
-      document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-          searchOverlay.classList.remove('active');
-        }
-      });
-    </script>
   </body>
 </html> 
