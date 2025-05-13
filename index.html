@@ -45,25 +45,5 @@
           style="width: 95vw; max-width: 1200px; height: 500px; object-fit: cover; border-radius: 40px; box-shadow: 0 8px 32px rgba(44,44,44,0.12); background: #fff;">
       </div>
     </main>
-    
-      // Load More Posts script
-      const loadMoreBtn = document.getElementById('load-more-posts');
-      const postsGrid = document.getElementById('posts-grid');
-      let postsToShow = 6;
-      loadMoreBtn.addEventListener('click', function() {
-        const cards = postsGrid.querySelectorAll('.post-card');
-        let shown = 0;
-        for (let i = 0; i < cards.length; i++) {
-          if (cards[i].style.display !== 'none') shown++;
-        }
-        let revealed = 0;
-        for (let i = shown; i < cards.length && revealed < 6; i++, revealed++) {
-          cards[i].style.display = '';
-        }
-        if (shown + revealed >= cards.length) {
-          loadMoreBtn.style.display = 'none';
-        }
-      });
-    </script>
   </body>
 </html>
