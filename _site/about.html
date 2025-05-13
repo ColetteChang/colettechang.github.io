@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>About - Colette Chang Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <a href="index.html" style="text-decoration: none; color: inherit;">
+          <div class="profile">
+            <img src="coco.jpeg" alt="Colette Chang" class="profile-pic">
+            <span class="site-title">Colette<br>Chang</span>
+          </div>
+        </a>
+        <div style="display: flex; align-items: center;">
+          <nav class="nav-links">
+            <a href="about.html">About</a>
+            <a href="blog/">Blog</a>
+            <a href="contact.html">Contact Me</a>
+          </nav>
+          <a href="search.html" class="search-icon" aria-label="Search">
+            <i class="fas fa-search"></i>
+          </a>
+          <div class="social-icons">
+            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="about-flex">
+        <div class="about-section">
+          <img src="graduate photo.jpeg" alt="Colette Chang" class="main-photo">
+        </div>
+        <section class="about-section">
+          <h1 class="about-title">About</h1>
+          <p>Hi, I'm Colette.</p>
+          <p>I'm a lawyer by training, a learner by nature, and a curious mind wandering through books, places, ideas, and the occasional legal rabbit hole. I hold an LL.B. from National Cheng Kung University and an LL.M. from the University of Pennsylvania Carey Law School, where I explored the intersection of law, policy, and emerging technologies.</p>
+          <p>Right now, I'm learning AI and building this blog myself—third time's the charm after two failed attempts at learning to code. With a bit of persistence (and a lot of help from AI), I'm finally starting to see it come together. I hope to keep exploring the latest technologies and, someday, build something genuinely useful—and maybe even a little cool.</p>
+          <p>This space is where I collect the things that move me: stories I read, cities I explore, shows I can't stop thinking about, and reflections on law, tech, and life in motion.</p>
+        </section>
+      </div>
+    </main>
+    <div id="search-overlay" class="search-overlay">
+        <div class="search-box">
+          <input type="text" placeholder="Type to search..." autofocus>
+          <span class="close-search" id="close-search">&times;</span>
+        </div>
+      </div>
+    </div>
+    <script>
+      const searchIcon = document.querySelector('.search-icon');
+      const searchOverlay = document.getElementById('search-overlay');
+      const closeSearch = document.getElementById('close-search');
+      const searchInput = searchOverlay.querySelector('input');
+
+      searchIcon.addEventListener('click', function(e) {
+        e.preventDefault();
+        searchOverlay.classList.add('active');
+        setTimeout(() => searchInput.focus(), 100);
+      });
+
+      closeSearch.addEventListener('click', function() {
+        searchOverlay.classList.remove('active');
+      });
+
+      // Optional: close overlay on ESC key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          searchOverlay.classList.remove('active');
+        }
+      });
+    </script>
+  </body>
+</html> 
