@@ -12,9 +12,17 @@
     <main>
       <div class="search-page-container">
         <h1>Search</h1>
-        <input type="text" class="search-input" placeholder="Type to search...">
-        <!-- You can add search results here later -->
+        <input type="text" id="search-input" placeholder="Type to search...">
+        <ul id="results-container"></ul>
       </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+    <script>
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json'
+      })
+    </script>
   </body>
 </html>
