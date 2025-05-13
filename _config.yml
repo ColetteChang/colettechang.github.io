@@ -40,10 +40,13 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-  layout: 'archive'
+  layouts:
+    category: archive
+    tag: archive
   permalinks:
     category: '/categories/:name/'
     tag: '/tags/:name/'
 
 include:
   - categories
+  - tags

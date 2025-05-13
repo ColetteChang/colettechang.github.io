@@ -18,7 +18,7 @@ Here's a list of the places that stood out — categorized so you can find what 
 ## 🥯 Breakfast & Brunch
 
 **Liberty Bagels (Midtown & FiDi)**
-My favorite bagel in NYC. I was skeptical of the rainbow bagel at first, but it turned out to be surprisingly delicious and totally unforgettable. I usually stop by when taking visitors to Central Park or Wall Street. I recommand try one sweet (Oreo, blueberry, or Nutella) and one savory such as lox, avocado, egg and cheese— and share with friends. They also do festive holiday bagels that are surprisingly delicious and photogenic.
+My favorite bagel in NYC. I was skeptical of the rainbow bagel at first, but it turned out to be surprisingly delicious and totally unforgettable. I usually stop by when taking visitors to Central Park or Wall Street. I recommand trying one sweet (Oreo, blueberry, or Nutella) and one savory such as lox, avocado, egg and cheese— and share with friends. They also do festive holiday bagels that are photogenic.
 
 **Ellen's Stardust Diner (Midtown)**  
 If you're short on time or budget and can't catch a Broadway show, this diner is a fun alternative. The food isn't anything special, but the live singing waitstaff give you a little taste of musical theater magic while you eat.
@@ -26,13 +26,13 @@ If you're short on time or budget and can't catch a Broadway show, this diner is
 ## 🍽️ Lunch & Dinner
 
 **Maison Pickle (Upper West Side)**  
-My favorite restaurant in the city!!! The French toast fried chicken is unreal: sweet, spicy, savory, crispy, and soft. The buffalo mac & cheese is pure comfort. The garlic bun is famous, but I personally prefer the herb one more. For dessert, try the Oreo cake, even though the signature 24-layer cake looks cooler.
+My favorite restaurant in the city!!! The French toast fried chicken is unreal: it's sweet, spicy, savory, crispy, and soft. The buffalo mac & cheese is pure comfort. The garlic bun is famous, but I personally prefer the herb one more. For dessert, try the Oreo cake, even though the signature 24-layer cake looks cooler.
 
 **Prince Street Pizza (SoHo)** 
 The square slice here is iconic — thick, crispy, cheesy, and a little greasy in the best way. It's probably too heavy for a typical Taiwanese stomach, but hey, you're in NYC! Embrace the junk food.
 
 **Sakagura (Midtown East)**  
-High-quality Japanese food that's still affordable. Come for the weekday lunch special! It's surprisingly fulfilling and tucked away in a hidden basement, which makes it feel like a delicious little secret.
+High-quality Japanese food that's still affordable. Come for the weekday lunch special! Surprisingly fulfilling and tucked away in a hidden basement, which makes it feel like a delicious little secret.
 
 **Mala Project (East Village & Midtown)**
 The best dry pot I've had in Manhattan. Still not Asia-level, but flavorful and comforting if you're craving that numbing spice.
@@ -41,7 +41,7 @@ The best dry pot I've had in Manhattan. Still not Asia-level, but flavorful and 
 The best wonton I've had in the U.S. I made the trip to Flushing just for it — twice! Still need to try their Manhattan location.
 
 **Dhamaka (Lower East Side)**  
-A high-quality Indian restaurant that delivers bold flavors and unique dishes. Definitely try the biryani - the pot is covered by bread! Really traditional way to make the dish. Also, don't miss the dessert! It's exotic, but surprisingly tasty. A great spot when you want something different and exciting.
+A high-quality Indian restaurant that delivers bold flavors and unique dishes. Definitely try the biryani - the pot is covered by bread! A really traditional way to make the dish. Also, don't miss the dessert! It's exotic, but surprisingly tasty. A great spot when you want something different and exciting.
 
 **Bar B (Greenwich Village)** 
 A tiny standing bar with great happy hour and fun energy. No seats, but that's part of the charm. Perfect for a quick bite before heading to dessert with friends.
@@ -58,7 +58,7 @@ Their cream puff is light, flavorful, and just indulgent enough — reminds me o
 A lovely matcha spot with thoughtful desserts and a calm, cozy atmosphere. Get there right when it opens to avoid a wait — it fills up quickly for good reason.
 
 **Anita La Mamma del Gelato (Upper West Side)**  
-My go-to ice cream spot (been here over five times). Rich, creamy, and full of fun flavors. Still looking for something that beats The Franklin Fountain in Philly.
+My go-to ice cream spot (been here over five times). Rich, creamy, and full of fun flavors. Still looking for something to beats The Franklin Fountain in Philly.
 
 **Veniero's Pasticceria & Caffe (East Village)**  
 Old-school Italian café with huge slices of cake and a cozy, uncrowded vibe. The cheesecake is solid. Not a "must-go," but a lovely stop if you're in the area after dinner.

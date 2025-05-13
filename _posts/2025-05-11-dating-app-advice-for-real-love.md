@@ -21,7 +21,7 @@ We’re bombarded with messages that we should be partnered by a certain age. Bu
 
 ### 2. Be yourself—even if it means losing a few matches.
 
-Pretending to like hiking, pets, or parties you actually hate might get you a few more swipes, but it won’t get you someone who likes you. Personally, I swipe left on every profile that features cats or dogs—because I’m just not a pet person. And if someone’s borrowing a pet for the photo? Even worse. Authenticity filters the right people in and out.
+Pretending to like hiking, pets, or parties you actually hate might get you a few more swipes, but it won’t get you someone who likes you. Personally, I swipe left on every profile that features cats or dogs because I’m just not a pet person. And if someone’s borrowing a pet for the photo? Even worse. Authenticity filters the right people in and out.
 
 ---
 
@@ -33,7 +33,7 @@ Coffee is neutral, casual, and fair—especially when it comes to expectations a
 
 ### 4. Don’t doubt the process—but don’t rely on it entirely.
 
-I used to ask myself all the time: Can I really meet the right person through an app? But then I realized—even I’m on the app. So why wouldn’t my Mr. Right be, too? The truth is, a lot of us are just trying our best to find connection in a digital world. That said, don’t put all your hopes into swiping. Stay open to the people you meet in real life—at events, through friends, or during everyday moments. Love isn’t only online.
+I used to ask myself all the time, "Can I really meet the right person through an app?" But then I realized—even I’m on the app. So why wouldn’t my Mr. Right be, too? The truth is, a lot of us are just trying our best to find connection in a digital world. That said, don’t put all your hopes into swiping. Stay open to the people you meet in real life—at events, through friends, or during everyday moments. Love isn’t only online.
 
 ---
 
@@ -71,4 +71,7 @@ Don’t just rely on vibes or fate—read books, talk to people, observe how dif
 
 Always love yourself first. Focus on what you want to pursue in life. A great partner is a huge bonus—but there’s absolutely nothing wrong with being single.
 
-No one can give you the “best” dating advice. Think about it: if someone has a lot of dating experience, doesn’t that mean
+No one can give you the “best” dating advice. Think about it: if someone has a lot of dating experience, doesn’t that mean they’ve made a lot of wrong choices? Should you fully trust them? And if someone’s only had one relationship and it worked out—maybe they just got lucky. Everyone’s path is different.
+
+So take advice as a tool, not a rulebook. Learn what you can, then trust yourself to build a strategy that fits you. Your version of love is out there—and you’re the one who gets to decide how to find it.
+
