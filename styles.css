@@ -577,3 +577,96 @@ body {
     text-decoration: underline;
     color: #7c4a17;
   }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: stretch;
+    margin: 2em auto;
+    max-width: 1200px;
+    width: 95vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .post-card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: #23202b;
+    border-radius: 20px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    color: #fff;
+    height: 320px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    position: relative;
+  }
+
+  .post-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(30,30,40,0.45);
+    z-index: 0;
+  }
+
+  .post-content {
+    position: relative;
+    z-index: 1;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .post-content p {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+  }
+
+  .post-meta {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+  }
+
+  .post-card h2 {
+    margin: 0 0 0.5em 0;
+    font-size: 1.3em;
+  }
+
+  .post-card a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .post-card a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 1000px) {
+    .posts-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 600px) {
+    .posts-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .posts-grid {
+      width: 98vw;
+      padding-left: 1vw;
+      padding-right: 1vw;
+    }
+  }
