@@ -13,31 +13,31 @@ Here are 7 pieces of advice for anyone seeking long-term connection in a modern 
 
 ---
 
-### 1. Ask yourself: Do you really want a relationship—or just think you should?
+### <span style="color:rgb(135, 59, 170);">1. Ask yourself: Do you really want a relationship—or just think you should?</span>
 
 We’re bombarded with messages that we should be partnered by a certain age. But not everyone actually wants a relationship right now—and that’s okay. Before swiping, take a moment to answer this question truthfully. Wanting companionship is valid. So is not wanting it.
 
 ---
 
-### 2. Be yourself—even if it means losing a few matches.
+### <span style="color:rgb(135, 59, 170);">2. Be yourself—even if it means losing a few matches.</span>
 
 Pretending to like hiking, pets, or parties you actually hate might get you a few more swipes, but it won’t get you someone who likes you. Personally, I swipe left on every profile that features cats or dogs because I’m just not a pet person. And if someone’s borrowing a pet for the photo? Even worse. Authenticity filters the right people in and out.
 
 ---
 
-### 3. Choose coffee for the first date, not dinner.
+### <span style="color:rgb(135, 59, 170);">3. Choose coffee for the first date, not dinner.</span>
 
 Coffee is neutral, casual, and fair—especially when it comes to expectations around who pays. In a place like NYC, two coffees are less than $15. You’re there to get to know each other, not to sit through a fancy meal with someone you might never see again. And let’s be real—if the vibe is off, you don’t want to be stuck awkwardly eating an entrée while making small talk. I’d rather enjoy good food alone than force myself through a bad dinner date. A coffee date gives you an easy out—you can wrap it up after an hour, no hard feelings.
 
 ---
 
-### 4. Don’t doubt the process—but don’t rely on it entirely.
+### <span style="color:rgb(135, 59, 170);">4. Don’t doubt the process—but don’t rely on it entirely.</span>
 
 I used to ask myself all the time, "Can I really meet the right person through an app?" But then I realized—even I’m on the app. So why wouldn’t my Mr. Right be, too? The truth is, a lot of us are just trying our best to find connection in a digital world. That said, don’t put all your hopes into swiping. Stay open to the people you meet in real life—at events, through friends, or during everyday moments. Love isn’t only online.
 
 ---
 
-### 5. (Especially for women): Prioritize your safety—always.
+### <span style="color:rgb(135, 59, 170);">5. (Especially for women): Prioritize your safety—always.</span>
 
 If you’re someone who hasn’t dated much before—maybe you’ve always been the “good student” type—please take your safety seriously. Dating apps can lead to great conversations, but they can also expose you to uncomfortable or dangerous situations. Always meet in a public place. Let a friend know where you’re going and who you’re meeting.
 
@@ -47,7 +47,7 @@ That’s why I now set clear boundaries. I don’t sit side by side on a first d
 
 ---
 
-### 6. Know your “ideal type”—but stay flexible.
+### <span style="color:rgb(135, 59, 170);">6. Know your “ideal type”—but stay flexible.</span>
 
 It’s totally okay to have a list of what you’re looking for—honestly, I think it’s helpful. I care about things like education level, career ambition, height, and physical appearance. Probably a few other things, too. For me, having a list just makes it easier to narrow things down—because let’s face it, there are so many people in the world. Your goal on dating apps isn’t to say yes to everyone; it’s to swipe left as much as possible, while still keeping an open mind when you’re not 100% sure someone is a no.
 
@@ -59,7 +59,7 @@ So yes, know what you want—but leave space to be surprised. Preferences are us
 
 ---
 
-### 7. Finding the right person is a game—learn how to play it smart.
+### <span style="color:rgb(135, 59, 170);">7. Finding the right person is a game—learn how to play it smart.</span>
 
 If you’re hoping to find your Mr. or Ms. Right before society’s so-called “ideal marriage age,” the truth is—it’s a bit of a game. And like any game, timing and strategy matter. Every year, great people leave the dating pool. That doesn’t mean you should panic or rush into the wrong relationship, but it does mean you should be intentional.
 
@@ -67,7 +67,7 @@ Don’t just rely on vibes or fate—read books, talk to people, observe how dif
 
 ---
 
-### Final thoughts:
+### <span style="color:rgb(170, 21, 83);">Final thoughts:</span>
 
 Always love yourself first. Focus on what you want to pursue in life. A great partner is a huge bonus—but there’s absolutely nothing wrong with being single.
 
