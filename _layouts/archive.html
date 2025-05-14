@@ -42,7 +42,7 @@
   <li style="margin-bottom: 1em;">
     <a href="{{ post.url }}">{{ post.title }}</a>
     {% if post.subtitle %}
-       {{ post.subtitle }}
+       <span style="color:#444; font-style:italic;"> — {{ post.subtitle }}</span>
     {% endif %}
     <span style="color:#888; font-size:0.9em;">
       ({{ post.date | date: "%B %d, %Y" }})

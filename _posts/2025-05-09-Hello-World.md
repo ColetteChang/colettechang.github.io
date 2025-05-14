@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World:"
+title: "Hello World"
 subtitle: "From a Lawyer Who Just Started Vibe Coding"
 date: 2025-05-09
 author: Colette Chang
