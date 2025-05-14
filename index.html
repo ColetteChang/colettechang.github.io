@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div style="display: flex; justify-content: center; margin: 4em 0 2em 0;">
+<div style="display: flex; justify-content: center; margin: 4em 0 4em 0;">
   <img src="graduate photo.jpeg" alt="Colette Chang Graduation"
-    style="width: 95vw; max-width: 1200px; height: 500px; object-fit: cover; border-radius: 40px; box-shadow: 0 8px 32px rgba(44,44,44,0.12); background: #fff;">
+    style="width: 95vw; max-width: 1200px; height: 500px; object-fit: cover; border-radius: 40px; box-shadow: 0 8px 32px rgba(44,44,44,0.12); background: #e6f0fa;">
 </div>
 <div class="posts-grid">
   {% for post in site.posts %}
@@ -14,7 +14,6 @@ layout: default
         <p class="post-meta">
           {{ post.date | date: "%b %d, %Y" }} • {{ post.author }}
         </p>
-        <p>{{ post.excerpt }}</p>
       </div>
     </div>
   {% endfor %}

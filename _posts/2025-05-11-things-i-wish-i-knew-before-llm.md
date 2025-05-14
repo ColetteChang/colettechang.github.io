@@ -5,7 +5,6 @@ date: 2025-05-11
 author: Colette Chang
 categories: [Law, Thought]
 tags: [LLM, Law School, International Students]
-image: /assets/images/pennlaw.jpg
 ---
 
 If you're about to begin your LL.M. journey in the United States—congrats! It's going to be intense, exciting, and transformative. I'm sharing a few things I wish I had known before starting, based on my own experience and what I've learned from friends and classmates.
