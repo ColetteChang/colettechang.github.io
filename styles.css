@@ -15,70 +15,72 @@ body {
   
   .header-content {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-start;
-    padding: 4px 8px;
-    min-height: 48px;
-    gap: 0;
-    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px 40px;
   }
   
   .profile {
     display: flex;
     align-items: center;
-    flex-shrink: 0;
-    margin-right: 8px;
   }
   
   .profile-pic {
-    width: 32px;
-    height: 32px;
-    margin-right: 6px;
-    border-width: 1px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    margin-right: 18px;
+    object-fit: cover;
+    border: 2px solid #7C8B5B;
+    background: #fff;
   }
   
   .site-title {
-    font-size: 1.1em;
-    line-height: 1;
-    margin: 0 10px 0 0;
-    text-align: left;
-    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
     font-weight: 700;
-    white-space: nowrap;
-  }
-  
-  .nav-links {
+    color: #2C2C2C;
+    line-height: 1.1;
+    text-align: center;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 0 0 8px;
-    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
   }
   
+  .social-icons a {
+    margin-left: 18px;
+    font-size: 2em;
+    color: #7C8B5B;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .social-icons a:hover {
+    color: #2C2C2C;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px 0 40px;
+  }
+
   .nav-links a {
-    margin: 0 6px;
-    font-size: 0.98em;
-    padding: 2px 0;
-    white-space: nowrap;
-    font-weight: 600;
+    margin-left: 32px;
+    font-size: 1.2em;
+    color: #2C2C2C;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+    font-weight: bold;
   }
-  
-  .search-icon, .social-icons a {
-    font-size: 1.1em;
-    margin-left: 8px;
-    margin-right: 0;
-    vertical-align: middle;
-  }
-  
-  .social-icons {
-    display: flex;
-    align-items: center;
-    margin-left: 4px;
-  }
-  
-  .top-nav, .center-header {
-    display: none !important;
+
+  .nav-links a:hover {
+    color: #7C8B5B;
   }
 
   .center-header {
@@ -105,6 +107,17 @@ body {
     color: #2C2C2C;
     text-align: center;
     margin: 0;
+  }
+
+  .search-icon {
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 1.5em;
+    color: #2C2C2C;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
   }
 
   .main-photo-container {
