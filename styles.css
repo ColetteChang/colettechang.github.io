@@ -658,9 +658,6 @@ body {
     }
   }
   @media (max-width: 600px) {
-    .posts-grid {
-      grid-template-columns: 1fr;
-    }
     .header-content {
       flex-direction: row;
       align-items: center;
