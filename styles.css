@@ -661,32 +661,34 @@ body {
     .posts-grid {
       grid-template-columns: 1fr;
     }
-  }
-
-  @media (max-width: 1200px) {
-    .posts-grid {
-      width: 98vw;
-      padding-left: 1vw;
-      padding-right: 1vw;
-    }
-  }
-
-  @media (max-width: 600px) {
     .header-content {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 12px 8px;
+      flex-direction: row;
+      align-items: center;
+      padding: 8px 4px;
     }
     .nav-links {
       display: flex;
-      flex-direction: column;
-      width: 100%;
-      margin: 12px 0 0 0;
+      flex-direction: row;
+      width: auto;
+      margin: 0 0 0 16px;
     }
     .nav-links a {
-      margin: 8px 0;
-      font-size: 1.1em;
-      padding: 8px 0;
+      margin: 0 8px;
+      font-size: 1em;
+      padding: 4px 0;
+    }
+    .profile-pic {
+      width: 48px;
+      height: 48px;
+      margin-right: 8px;
+    }
+    .site-title {
+      font-size: 1.5em;
+    }
+    .search-icon, .social-icons a {
+      font-size: 1.2em;
+      margin-left: 8px;
+      margin-right: 0;
     }
     .about-flex {
       flex-direction: column;
