@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reflecting on Public Service"
+title: "⚖️ Reflecting on Public Service"
 subtitle: "My Final AABANY Pro Bono Moment in NYC"
 date: 2025-05-22
 author: Colette Chang
