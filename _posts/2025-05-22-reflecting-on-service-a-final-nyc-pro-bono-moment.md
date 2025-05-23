@@ -19,7 +19,7 @@ It's incredible to think how quickly time has flown. I've literally crossed the 
 As I close this chapter in NYC and finish packing, I'm filled with immense gratitude for the connections made and the opportunity to serve. A huge thank you to AABANY for this sweet gesture and for fostering such a great environment for legal professionals to give back. I'll carry the spirit of this community with me wherever my next adventure takes me.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="../../assets/blog-images/AABANY.jpg" alt="AABANY cake presented to Colette Chang" style="max-width: 100%; height: auto;">
+  <img src="/assets/blog-images/AABANY.jpg" alt="AABANY cake presented to Colette Chang" style="max-width: 100%; height: auto;">
 </div>
 
 --- 
