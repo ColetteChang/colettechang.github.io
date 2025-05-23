@@ -661,40 +661,56 @@ body {
     .header-content {
       flex-direction: row;
       align-items: center;
-      padding: 8px 4px;
-      overflow-x: auto;
-      white-space: nowrap;
+      justify-content: flex-start;
+      padding: 4px 8px;
+      min-height: 48px;
+      gap: 0;
     }
     .profile {
+      display: flex;
+      align-items: center;
       flex-shrink: 0;
+      margin-right: 8px;
+    }
+    .profile-pic {
+      width: 32px;
+      height: 32px;
+      margin-right: 6px;
+      border-width: 1px;
     }
     .site-title {
       font-size: 1.1em;
-      margin-right: 8px;
+      line-height: 1;
+      margin: 0 10px 0 0;
+      text-align: left;
+      display: block;
+      font-weight: 700;
       white-space: nowrap;
     }
     .nav-links {
       display: flex;
       flex-direction: row;
+      align-items: center;
       margin: 0 0 0 8px;
-      white-space: nowrap;
+      gap: 0;
     }
     .nav-links a {
       margin: 0 6px;
-      font-size: 1em;
-      padding: 4px 0;
+      font-size: 0.98em;
+      padding: 2px 0;
       white-space: nowrap;
+      font-weight: 600;
     }
     .search-icon, .social-icons a {
-      font-size: 1.2em;
-      margin-left: 6px;
+      font-size: 1.1em;
+      margin-left: 8px;
       margin-right: 0;
-      white-space: nowrap;
+      vertical-align: middle;
     }
-    .profile-pic {
-      width: 36px;
-      height: 36px;
-      margin-right: 6px;
+    .social-icons {
+      display: flex;
+      align-items: center;
+      margin-left: 4px;
     }
     .about-flex {
       flex-direction: column;
