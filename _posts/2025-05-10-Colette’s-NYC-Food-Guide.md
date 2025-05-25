@@ -34,14 +34,8 @@ The square slice here is iconic — thick, crispy, cheesy, and a little greasy i
 <span style="color:rgb(217, 0, 148);"><b>Sakagura (Midtown East)</b></span>  
 High-quality Japanese food that's still affordable. Come for the weekday lunch special! Surprisingly fulfilling and tucked away in a hidden basement, which makes it feel like a delicious little secret.
 
-<span style="color:rgb(217, 0, 148);"><b>Mala Project (East Village & Midtown)</b></span>  
-The best dry pot I've had in Manhattan. Still not Asia-level, but flavorful and comforting if you're craving that numbing spice.
-
 <span style="color:rgb(217, 0, 148);"><b>Maxi's Noodle (Flushing)</b></span>  
 The best wonton I've had in the U.S. I made the trip to Flushing just for it — twice! Still need to try their Manhattan location.
-
-<span style="color:rgb(217, 0, 148);"><b>Dhamaka (Lower East Side)</b></span>  
-A high-quality Indian restaurant that delivers bold flavors and unique dishes. Definitely try the biryani - the pot is covered by bread! A really traditional way to make the dish. Also, don't miss the dessert! It's exotic, but surprisingly tasty. A great spot when you want something different and exciting.
 
 <span style="color:rgb(217, 0, 148);"><b>Bar B (Greenwich Village)</b></span>  
 A tiny standing bar with great happy hour and fun energy. No seats, but that's part of the charm. Perfect for a quick bite before heading to dessert with friends.
@@ -68,13 +62,12 @@ Old-school Italian café with huge slices of cake and a cozy, uncrowded vibe. Th
 <span style="color:rgb(217, 0, 148);"><b>Katz's Delicatessen (Lower East Side)</b></span>  
 A New York legend. Huge pastrami sandwiches and chaotic vintage vibes. Tip: Go after midnight after bar— they're open 24/7, and you'll skip the crazy lines.
 
+<span style="color:rgb(217, 0, 148);"><b>The Overlook Bar (Midtwon)</b></span>  
+I went here for the Speakeasy Magick show. The bartender is surpringly awesome! No menu! Just tell her what you want, and you will get a wonderful cocktail.
+
 <span style="color:rgb(217, 0, 148);"><b>Double Chicken Please (Lower East Side)</b></span>  
 This bar is crazy busy — I don't think I'd wait in that line again. But if you've never been and you're curious, the tea-based cocktails are genuinely impressive. It's rare to find cocktails with this kind of tea flavor and balance in the U.S. Worth trying once… if you have the patience.
 
-## 🍗 Street Food
-
-<span style="color:rgb(217, 0, 148);"><b>The Halal Guys (Midtown)</b></span>  
-I'm not usually a street food person, but this one is famous. Just make sure you go to the right cart: the original one at 6th Avenue & W 53rd St (and the one directly across the street is also legit). Don't be fooled by other food trucks using the same name — they're not quite the same. (This tip comes from someone who used to be a huge Halal Guys fan.) The combo platter with white sauce is the classic order.
 
 ---
 
