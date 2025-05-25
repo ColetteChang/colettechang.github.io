@@ -64,17 +64,17 @@
         const closeBtn = document.getElementById('mobile-menu-close');
 
         hamburger.addEventListener('click', function() {
-          mobileMenu.style.display = 'flex';
+          mobileMenu.classList.add('open');
         });
 
         closeBtn.addEventListener('click', function() {
-          mobileMenu.style.display = 'none';
+          mobileMenu.classList.remove('open');
         });
 
         // Optional: close menu when clicking outside
         mobileMenu.addEventListener('click', function(e) {
           if (e.target === mobileMenu) {
-            mobileMenu.style.display = 'none';
+            mobileMenu.classList.remove('open');
           }
         });
       });
