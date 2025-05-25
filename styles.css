@@ -694,15 +694,15 @@ body {
       margin-right: 12px;
     }
     .hamburger {
-      flex-shrink: 0;
-      width: 32px !important;
-      height: 32px !important;
-      margin-left: 10px !important;
       display: flex !important;
       flex-direction: column;
+      cursor: pointer;
+      width: 32px;
+      height: 32px;
       justify-content: center;
       align-items: center;
-      z-index: 2;
+      margin-left: 16px;
+      z-index: 1001;
     }
     .hamburger span {
       width: 20px !important;
@@ -823,10 +823,13 @@ body {
       display: flex;
     }
     .main-photo {
+      width: 100vw !important;
+      max-width: 100vw !important;
       height: 180px !important;
-      width: 100% !important;
       object-fit: cover;
-      border-radius: 16px;
+      border-radius: 16px !important;
+      display: block;
+      margin: 0 auto;
     }
     .about-section .main-photo,
     .about-section .main-photo-container .main-photo {
