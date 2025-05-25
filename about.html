@@ -23,6 +23,11 @@
             <a href="blog/">Blog</a>
             <a href="contact.html">Contact Me</a>
           </nav>
+          <div class="hamburger" id="hamburger-menu" aria-label="Open menu" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <a href="search.html" class="search-icon" aria-label="Search">
             <i class="fas fa-search"></i>
           </a>
@@ -35,6 +40,18 @@
             </a>
           </div>
         </div>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+          <span class="mobile-menu-title">Menu</span>
+          <span class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu" tabindex="0">&times;</span>
+        </div>
+        <hr class="mobile-menu-separator" />
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog/">Blog</a>
+        <a href="contact.html">Contact Me</a>
       </div>
     </header>
     <main>
@@ -51,5 +68,27 @@
         </section>
       </div>
     </main>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.getElementById('hamburger-menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeBtn = document.getElementById('mobile-menu-close');
+
+        hamburger.addEventListener('click', function() {
+          mobileMenu.classList.add('open');
+        });
+
+        closeBtn.addEventListener('click', function() {
+          mobileMenu.classList.remove('open');
+        });
+
+        // Optional: close menu when clicking outside
+        mobileMenu.addEventListener('click', function(e) {
+          if (e.target === mobileMenu) {
+            mobileMenu.classList.remove('open');
+          }
+        });
+      });
+    </script>
   </body>
 </html> 
