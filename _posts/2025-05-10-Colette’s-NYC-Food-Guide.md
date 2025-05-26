@@ -9,9 +9,9 @@ tags: [New York]
 
 I've now spent a full year in this wild, exciting, and chaotic city.
 
-I still wouldn't call myself a local — more like a one-year tourist who just happened to live here. I wandered through a lot of neighborhoods and ate a lot of meals. Some were nostalgic, some were surprising, and some were simply comforting in the middle of a homesick week.
+I wouldn't call myself a local. I'm more like a one-year tourist who just happened to live here. I wandered through a lot of neighborhoods and ate a lot of meals. Some were nostalgic, some were surprising, and some were simply comforting in the middle of a homesick week.
 
-Here's a list of the places that stood out — categorized so you can find what you're craving, with honest notes from someone who's still exploring.
+Here's a list of the places I recommend.
 
 ---
 
@@ -32,13 +32,13 @@ My favorite restaurant in the city!!! The French toast fried chicken is unreal: 
 The square slice here is iconic — thick, crispy, cheesy, and a little greasy in the best way. It's probably too heavy for a typical Taiwanese stomach, but hey, you're in NYC! Embrace the junk food.
 
 <span style="color:rgb(217, 0, 148);"><b>Sakagura (Midtown East)</b></span>  
-High-quality Japanese food that's still affordable. Come for the weekday lunch special! Surprisingly fulfilling and tucked away in a hidden basement, which makes it feel like a delicious little secret.
+High-quality Japanese food that's still affordable. Come for the weekday lunch special if you work close to Grand Central!
 
 <span style="color:rgb(217, 0, 148);"><b>Maxi's Noodle (Flushing)</b></span>  
-The best wonton I've had in the U.S. I made the trip to Flushing just for it — twice! Still need to try their Manhattan location.
+The best wonton I've had in the U.S. I made the trip to Flushing just for it twice! Still need to try their Manhattan location.
 
 <span style="color:rgb(217, 0, 148);"><b>Bar B (Greenwich Village)</b></span>  
-A tiny standing bar with great happy hour and fun energy. No seats, but that's part of the charm. Perfect for a quick bite before heading to dessert with friends.
+A tiny standing bar with great happy hour and fun energy. No seats, but that's part of the charm. Dishes are all small plates. But it has never disappointed me.
 
 <span style="color:rgb(217, 0, 148);"><b>Keens Steakhouse (Midtown)</b></span>  
 Not a place I'd go alone, but perfect when family visits. Classic NYC steakhouse with rich dishes. Bonus: their desserts come from top bakeries like Eileen's Special Cheesecake — so you get the best without the line.
@@ -46,7 +46,7 @@ Not a place I'd go alone, but perfect when family visits. Classic NYC steakhouse
 ## 🍰 Desserts & Cafés
 
 <span style="color:rgb(217, 0, 148);"><b>Bibble & Sip (Midtown)</b></span>   
-Their cream puff is light, flavorful, and just indulgent enough — reminds me of the quality I'd expect in Asia. Yes, it's pricey, but a perfect homesick cure when you're craving something sweet and familiar.
+Their cream puff reminds me of the quality I'd expect in Asia. A perfect homesick cure when you're craving something sweet and familiar.
 
 <span style="color:rgb(217, 0, 148);"><b>Cha-An Teahouse (East Village)</b></span>  
 A lovely matcha spot with thoughtful desserts and a calm, cozy atmosphere. Get there right when it opens to avoid a wait — it fills up quickly for good reason.
@@ -71,6 +71,4 @@ This bar is crazy busy — I don't think I'd wait in that line again. But if you
 
 ---
 
-After one year of eating my way through the city, I still don't feel like I've scratched the surface — but these places left an impression. Some brought comfort when I missed home, some surprised me, and some were just fun.
-
-If you're visiting or just moved here, I hope this list gives you a few ideas to start with. And if you have better gelato recommendations — let me know. I'm still looking.
+If you're visiting or just moved here, I hope this list gives you a few ideas to start with. And if you have better gelato recommendations, please let me know. I'm still looking.

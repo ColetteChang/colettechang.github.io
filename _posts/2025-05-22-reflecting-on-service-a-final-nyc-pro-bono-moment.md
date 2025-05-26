@@ -16,7 +16,7 @@ This moment instantly transported me back ten years, to my second year of colleg
 
 It's astonishing how quickly time passes. I've literally traveled across the globe, yet the commitment to volunteerism and aiding different communities remains a constant. Each pro bono hour—whether with the Legal Aid Foundation and NCKU Legal Service Clinic in Tainan, the Judicial Reform Foundation in Taipei, or with AABANY in New York—underscores that law is more than just a profession. It's about leveraging my skills to create real change in people's lives and build a more equitable society.
 
-As I close this NYC chapter and finalize my packing, I'm profoundly grateful for the connections forged and the chance to serve. A heartfelt thank you to AABANY for their kind gesture and for cultivating such an excellent environment for legal professionals to contribute. The spirit of this community will accompany me on my next journey.
+As I close this NYC chapter and finalize my packing, I'm profoundly grateful for the chance to serve. A heartfelt thank you to AABANY for cultivating such an excellent environment for legal professionals to contribute. The spirit of this community will accompany me on my next journey.
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="{{ site.baseurl }}/assets/blog-images/AABANY.jpg" alt="AABANY cake presented to Colette Chang" style="max-width: 100%; height: auto;">

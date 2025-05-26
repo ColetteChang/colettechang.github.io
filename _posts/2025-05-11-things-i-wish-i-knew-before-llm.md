@@ -13,9 +13,9 @@ If you're about to begin your LL.M. journey in the United States—congrats! It'
 
 ### <span style="color:rgb(11, 138, 132);">1. Choosing a School: Location and Ranking Matter More Than You Think</span>
 
-Location isn't just about weather—it affects your networking opportunities, access to firms, externships, and even your social life. Being in or near major legal hubs like New York, D.C., or San Francisco gives you more chances to attend events, meet professionals, and explore job options.
+Location isn't just about weather. It affects your networking opportunities, access to firms, externships, and even your social life. Being in or near major legal hubs like New York, D.C., or San Francisco gives you more chances to attend events, meet professionals, and explore job options.
 
-Ranking also plays a role—not just for resume value but for connecting with alumni and even making friends outside the law school bubble. A well-known university often means a broader international community and more diverse campus life.
+Ranking also plays a role. Not just for resume value but for connecting with alumni and even making friends outside the law school bubble. A well-known university often means a broader international community and more diverse campus life.
 
 ---
 
@@ -45,12 +45,12 @@ Small talk felt awkward to me at first. But I learned one simple tip: just ask, 
 
 One of my regrets is not doing an externship. Because of visa limitations and poor planning, I missed the chance.
 
-So here's what I'd do differently: talk to alumni early. Ask what courses are useful for externships or bar eligibility. Learn how your law school works—what deadlines matter, what opportunities exist, and what mistakes to avoid. You only have nine months. Make them count.
+So here's what I'd do differently: talk to alumni early. Ask what courses are useful for externships or bar eligibility. Learn how your law school works such as deadlines, opportunities, and what mistakes to avoid. You only have nine months. Make them count.
 
 ---
 
 ### <span style="color:rgb(171, 21, 79);">Final Thoughts</span>
 
-The LL.M. year goes by fast. You don't need to have everything figured out on day one—but the more you know going in, the better you'll make use of your time. Be intentional. Be curious. And enjoy the ride.
+The LL.M. year goes by fast. You don't need to have everything figured out on day one but the more you know going in, the better you'll make use of your time. Be intentional. Be curious. And enjoy the ride.
 
-If you're starting your LL.M. soon and have questions—or just want someone to talk to—feel free to reach out to me. I'd love to connect and help however I can. You're not alone in this journey!
+If you're starting your LL.M. soon and have questions or just want someone to talk to. Feel free to reach out to me. I'd love to connect and help however I can. You're not alone in this journey!
