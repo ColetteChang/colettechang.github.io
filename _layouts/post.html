@@ -66,13 +66,32 @@
               {{ page.date | date: "%Y-%m-%d" }}
             </time>
             {% if page.author %}
-            <span class="post-author">by {{ page.author }}</span>
+            <span class="post-author">by <span class="no-break">Colette&nbsp;Chang</span></span>
             {% endif %}
           </div>
         </header>
         <div class="post-content">
           {{ content }}
         </div>
+
+        <div class="share-article-section">
+          <h3>SHARE THIS ARTICLE</h3>
+          <div class="share-buttons">
+            <a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener" aria-label="Share on Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="share-btn twitter" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title | uri_escape }}" target="_blank" rel="noopener" aria-label="Share on Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a class="share-btn linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title | uri_escape }}" target="_blank" rel="noopener" aria-label="Share on LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="share-btn generic-share" href="#" onclick="shareArticle(event)" aria-label="Share this article">
+              <i class="fas fa-share-alt"></i>
+            </a>
+          </div>
+        </div>
+
         <div class="post-meta-bottom">
           {% if page.categories %}
             <p>Categories:
@@ -87,6 +106,21 @@
                 <a href="/tags/{{ tag | slugify }}/" class="tag-link">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
               {% endfor %}
             </p>
+          {% endif %}
+        </div>
+
+        <div class="post-navigation">
+          {% if page.previous %}
+            <a class="nav-card prev" href="{{ page.previous.url }}">
+              <div class="nav-label">&lt; Previous Page</div>
+              <div class="nav-title">{{ page.previous.title }}</div>
+            </a>
+          {% endif %}
+          {% if page.next %}
+            <a class="nav-card next" href="{{ page.next.url }}">
+              <div class="nav-label">Next Page &gt;</div>
+              <div class="nav-title">{{ page.next.title }}</div>
+            </a>
           {% endif %}
         </div>
       </article>
@@ -110,5 +144,30 @@
         });
       });
     </script>
+    <script>
+    function shareArticle(event) {
+      event.preventDefault();
+      const shareData = {
+        title: document.title,
+        text: '{{ page.title }}',
+        url: '{{ site.url }}{{ page.url }}'
+      };
+      if (navigator.share) {
+        navigator.share(shareData);
+      } else {
+        // Fallback: copy to clipboard
+        navigator.clipboard.writeText(shareData.url).then(function() {
+          alert('Link copied to clipboard!');
+        }, function() {
+          alert('Could not copy link. Please copy it manually.');
+        });
+      }
+    }
+    </script>
+    <style>
+      .share-btn.generic-share {
+        /* Optional: custom color for the generic share button */
+      }
+    </style>
   </body>
 </html> 
