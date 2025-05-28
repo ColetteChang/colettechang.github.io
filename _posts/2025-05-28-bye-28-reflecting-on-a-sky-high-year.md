@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Bye, 28! Reflecting on a Sky-High Year (Literally!)"
-subtitle: "Looking back on a year of growth, fears, and new beginnings"
+title: "Bye, 28! "
+subtitle: "Reflecting on a Sky-High Year (Literally!)"
 date: 2025-05-28
 author: Colette Chang
 categories: [Thought, Travel & Life]
