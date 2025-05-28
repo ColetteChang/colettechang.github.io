@@ -19,3 +19,7 @@ The immersive element, where audience members vote on key decisions via QR code,
 Ultimately, while "The Jury Experience" tackles a fascinating and relevant legal problem, and the acting was engaging, I couldn't help but feel that the playwright could have done more research into the law. For an audience genuinely interested in how a courtroom works, giving accurate procedural information is crucial. Perhaps there's a good opportunity for lawyers and law students who also love theater—a new project to create shows that are both fun and legally correct!
 
 "The Jury Experience" offers an interesting look for those who haven't or will never have the chance to be a juror. However, my personal hope is that such a show could aim to do more: to truly help people understand their civic duty and learn more about the legal system. Otherwise, presenting incorrect procedures, even for entertainment, carries a certain risk. As a foreigner, I know this is an outside view, but it's a real observation.
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="{{ site.baseurl }}/assets/blog-images/jury.jpg" alt="the jury experience" style="max-width: 100%; height: auto;">
+</div>
