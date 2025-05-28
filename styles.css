@@ -905,8 +905,8 @@ body {
     .post-meta {
       display: flex;
       flex-direction: column;
-      gap: 0.1em;
-      align-items: flex-start;
+      gap: 0em;
+      align-items: center;
     }
     .post-meta time,
     .post-meta .post-author {
