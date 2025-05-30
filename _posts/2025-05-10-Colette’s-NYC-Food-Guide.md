@@ -4,7 +4,7 @@ title: "Colette's NYC Food Guide"
 date: 2025-05-10
 author: Colette Chang
 categories: [Travel & Life]
-tags: [New York]
+tags: [NYC]
 ---
 
 I've now spent a full year in this wild, exciting, and chaotic city.

@@ -8,8 +8,9 @@ layout: default
 <div class="posts-grid">
   {% for post in site.posts %}
     <div class="post-card" style="background-image: url('{{ post.image }}');">
+      <a href="{{ post.url | relative_url }}" class="post-card-cover"></a>
       <div class="post-content">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <h2>{{ post.title }}</h2>
         <p class="post-meta">
           {{ post.date | date: "%b %d, %Y" }} • {{ post.author }}
         </p>

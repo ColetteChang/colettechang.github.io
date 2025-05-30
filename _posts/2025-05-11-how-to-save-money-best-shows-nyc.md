@@ -4,7 +4,7 @@ title: "How to Save Money and See the Best Shows in NYC 🎭💸"
 date: 2025-05-11
 author: Colette Chang
 categories: [Travel & Life]
-tags: [New York, Broadway, Opera, Ballet, Theater, Discounts]
+tags: [NYC, Broadway, Opera, Ballet, Theater, Discounts]
 ---
 
 The greatest thing about living in NYC for me is that you can often enjoy world-class performances at an affordable price. Here are the platforms and tricks I use to consistently find great deals:

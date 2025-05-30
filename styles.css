@@ -609,6 +609,7 @@ body {
   }
 
   .post-card {
+    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -621,7 +622,6 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 2em;
-    position: relative;
   }
 
   .post-card::before {
@@ -630,6 +630,21 @@ body {
     inset: 0;
     background: rgba(30,30,40,0.45);
     z-index: 0;
+  }
+
+  .post-card-cover {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    text-indent: -9999px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .post-card .post-content {
+    position: relative;
+    z-index: 3;
   }
 
   .post-content {
@@ -1085,4 +1100,28 @@ body {
       min-height: 120px;
       padding: 24px 16px;
     }
+  }
+
+  a > .post-card {
+    display: block;
+  }
+  a.post-card-link {
+    display: block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+  }
+  a.post-card-link:hover {
+    text-decoration: none;
+  }
+  .post-card .post-content,
+  .post-card .post-content h2,
+  .post-card .post-content p {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .post-card:hover .post-content h2 {
+    text-decoration: underline;
   }
