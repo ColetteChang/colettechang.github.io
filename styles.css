@@ -440,7 +440,7 @@ body {
 
   .post-meta {
     font-size: 1.2rem;
-    color: #aaa;
+    color: #aaa !important;
     margin-bottom: 0.5rem;
     white-space: nowrap;
     overflow: hidden;
