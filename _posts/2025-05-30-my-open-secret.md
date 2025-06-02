@@ -3,7 +3,7 @@ layout: post
 title: "My Open Secret: How AI is Helping Me Share My Voice"
 subtitle: "Embracing Technology to Bridge Language Barriers"
 date: 2025-05-30
-categories: [Tech & Projects, Thoughts]
+categories: [Tech & Projects, Thought]
 tags: [AI, Language, Life Lessons]
 ---
 
