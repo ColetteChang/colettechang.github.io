@@ -10,7 +10,7 @@ tags: [Miami, Travel, Legal Reflection]
 
 Today is my third day in Miami. Before finding my AirPods missing this morning, I was telling everyone how great the city is: good food, clean streets, almost no visible homelessness, and even free public transportation!
 
-However, everything changed after I realized my AirPods were gone. I consider myself cautious, rarely misplacing anything. Yet, my AirPods were missing! Using the "Find My" app on my iPhone, I located them at: 1025 NW 105th St, Miami, FL 33150.
+However, everything changed after I realized my AirPods were gone. I consider myself cautious, rarely misplacing anything. Yet, my AirPods were missing! Using the "Find My" app on my iPhone, I located them at a specific address in Miami.
 
 I immediately went to the hotel lobby, asking if they could check if something went wrong with housekeeping. While I'm not 100% sure, it's highly possible my AirPods were on the table in my hotel room when they were taken. The hotel manager took down details and said he'd deal with it. Based on his promise to get back to me, I didn't file a police report right away, trusting the hotel.
 
