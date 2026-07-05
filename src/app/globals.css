@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Cormorant Garamond", "Noto Serif TC", serif;
+  --font-serif: "EB Garamond", "Noto Serif TC", Georgia, serif;
+  --font-sans: "Jost", "Noto Sans TC", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .nav-link {
+    @apply font-serif text-[15px] tracking-wide text-ink/80 transition-colors hover:text-ink;
+  }
+  .nav-link.active {
+    @apply text-ink underline decoration-1 underline-offset-8;
+  }
+  .eyebrow {
+    @apply font-sans text-xs uppercase tracking-widest2 text-mute;
+  }
+  .section-title {
+    @apply font-display text-4xl font-medium tracking-tight text-ink sm:text-5xl;
+  }
+  .section-wrap {
+    @apply mx-auto max-w-5xl px-6 py-24 sm:py-28;
+  }
+  .card {
+    @apply rounded-2xl bg-mist p-8 ring-1 ring-line/60;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md bg-ink px-8 py-3 font-sans text-sm font-medium tracking-wide text-paper transition hover:bg-ink/85 disabled:opacity-50;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-md border border-ink px-8 py-3 font-sans text-sm font-medium tracking-wide text-ink transition hover:bg-ink hover:text-paper;
+  }
+  .field {
+    @apply w-full rounded-md border border-line bg-paper px-4 py-3 font-serif text-ink outline-none transition focus:border-ink;
+  }
+  .label {
+    @apply mb-1.5 block font-sans text-xs uppercase tracking-widest text-mute;
+  }
+  .hairline {
+    @apply mx-auto my-6 h-px w-16 bg-ink/30;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
